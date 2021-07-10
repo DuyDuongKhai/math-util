@@ -17,11 +17,13 @@ public class MathUtilLive {
         System.out.println("5! = 120; actual: " +result);
         System.out.println("6! = 720; actual: " +MathUtil.getFactoriral(6));
         System.out.println("0! = 1  ; actual: " +MathUtil.getFactoriral(0));
+        System.out.println("1! = 1  ; actual: " +MathUtil.getFactoriral(1));
+        System.out.println("3! = 1  ; actual: " +MathUtil.getFactoriral(3));
 
 
         
         //MathUtil.getFactoriral(-5); ném ngoại lệ thật rồi, ai biểu đưa cà chớn
-        
+         
         
         
         //kĩ thuật kiểm thử phần mềm: ước lượng xem giá trị trả về của hàm là gì
